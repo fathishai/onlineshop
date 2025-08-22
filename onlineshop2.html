@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <style>
+        .card-img-top{
+            width: 285px;
+            height: 200px;
+            object-fit: contain;
+        }
+        .d-block{
+            height: 400px;
+        }
+    </style>
+    </head>
+    <body>
+       <nav class="navbar navbar-expand-lg bg-body-teritiary fixed-top" style="background-color: greenyellow;">
+        
+            <img src="eimages/logo1.jpg" alt="bootstrap" width="160" height="70">
+            <br>
+            <a class="navbar-brand" href="#" style="color: green;">ONLINE SHOP</a>
+                <div class="contaimer-fluid"></div>
+                <form class="d-flex mx-auto col-sm-6" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search Online" aria-label="Search"/>
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navSupportedContent" aria-controls="navSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">return & orders</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">accounts and list</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="eimages/onamoffer1.jpeg" class="d-block w-100" alt="onamoffer">
+            </div>
+            <div class="carousel-item">
+                <img src="eimages/onam.jpeg" class="d-block w-100" alt="onam">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container-fluid mt-3">
+    <div class="row mt-5">
+      <div class="col-md-3 sidebar" style="background-image: url(eimages/electronics.jpg);">
+        <h5>Filters</h5>
+        <hr>
+        <h6>Category</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Electronics</a></li>
+          <li><a href="#">Fashion</a></li>
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Beauty</a></li>
+        </ul>
+        <h6>Customer Review</h6>
+        <ul class="list-unstyled">
+            <li>
+                <a href="#">⭐⭐⭐⭐☆ & Up</a>
+            </li>
+            <li>
+                <a href="#">⭐⭐⭐☆☆ & Up</a>
+            </li>
+            <li>
+                <a href="#">⭐⭐☆☆☆ & Up</a>
+            </li>
+            <li><a href="#">⭐☆☆☆☆ & Up</a>
+            </li>
+        </ul>
+        <h6>Price</h6>
+        <ul class="list-unstyled">
+            <li><a href="#">Under ₹500</a></li>
+            <li><a href="#">₹500 – ₹1,000</a></li>
+            <li><a href="#">₹1,000 – ₹2,000</a></li>
+            <li><a href="#">₹2,000 – ₹3,000</a></li>
+            <li><a href="#">Over ₹3,000</a></li>
+        </ul>
+        <div class="d-flex">
+            <input type="number" class="form-control me-2" placeholder="Min">
+            <input type="number" class="form-control me-2" placeholder="Max">
+            <button class="btn btn-sm btn-primary">Go</button>
+        </div>
+
+      </div>
+
+
+    <div class="col-md-9">
+        <div class="row mt-5">
+           <div class="col">
+            <div class="card h-100 text-center">
+                <img src="eimages/Laptop.jpg" class="card-img-top" alt="Laptop">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Laptop</h5>
+                    <p class="text-danger">From ₹20000</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 text-center">
+                <img src="eimages/Monitor.jpg" class="card-img-top" alt="Monitor" >
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Monitor</h5>
+                    <p class="text-danger">From ₹20000</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 text-center">
+                <img src="eimages/Mobile phone.jpg" class="card-img-top" alt="Mobile">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Mobile Phone</h5>
+                    <p class="text-danger">From ₹20000</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 text-center">
+                <img src="eimages/Wrist Watch.jpg" class="card-img-top" alt="Wrist Watch">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Wrist Watch</h5>
+                    <p class="text-danger">From ₹20000</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 text-center">
+                <img src="eimages/vaccum sucker.jpg" class="card-img-top" alt="Vacuum Sucker">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Vacuum Sucker</h5>
+                    <p class="text-danger">From ₹20000</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 text-center">
+                <img src="eimages/Smart watches.jpg" class="card-img-top" alt="Smart Watch">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Smart Watch</h5>
+                    <p class="text-danger">From ₹20000</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
